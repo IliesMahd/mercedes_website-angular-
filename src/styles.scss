@@ -19,6 +19,10 @@ $dark-blue: #005ea2;
   text-decoration: none;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "Default";
   src: url("/assets/fonts/MBCorpoSText-Regular-Web.woff2");
