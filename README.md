@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Commandes importantes pour git:
+
+git commit -m "message" : pour faire un commit avec un message
+git push : pour envoyer les commits sur le serveur
+git pull : pour récupérer les commits du serveur
+git status : pour voir les fichiers modifiés
+git add . : pour ajouter tous les fichiers modifiés
+git add nomFichier : pour ajouter un fichier modifié
+git checkout nomFichier : pour annuler les modifications d'un fichier
