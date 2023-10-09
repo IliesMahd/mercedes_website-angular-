@@ -1,0 +1,31 @@
+<header>
+  <div class="container-logo">
+    <img src="../../../assets/logo/basic_logo.png" alt="test" />
+    <h1>Mercedes-Benz</h1>
+  </div>
+  <div class="container-categories">
+    <ul>
+      <li *ngFor="let item of links">
+        <a
+          (click)="navigate(item.path)"
+          [class.active]="item.path === activeLink"
+          >{{ item.label }}</a
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="container-search">
+    <ul>
+      <li>
+        <input type="text" placeholder="Exemple : Classe S Berline" />
+        <i class="fi fi-rr-search"></i>
+      </li>
+      <li>
+        <i class="fi fi-ss-user"></i>
+      </li>
+      <li>
+        <i class="fi fi-ss-star"></i>
+      </li>
+    </ul>
+  </div>
+</header>

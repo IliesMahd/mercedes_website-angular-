@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+$title-font: "Title", sans-serif;
+$basic-font: "Default", sans-serif;
+$line-height: 1.5rem;
+$font-weight: 400;
+$light-gray: #bbb;
+$dark-gray: #262626;
+$black: #000;
+$white: #fff;
+$light-blue: #0078d6;
+$dark-blue: #005ea2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Default";
+  src: url("/assets/fonts/MBCorpoSText-Regular-Web.woff2");
+}
+
+@font-face {
+  font-family: "Title";
+  src: url("/assets/fonts/MBCorpoATitleCond-Regular-Web.woff2");
+}
