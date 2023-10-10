@@ -42,42 +42,42 @@
         justify-content: center;
 
         & h1 {
-            font-family: $title-font;
-            font-size: 5rem;
-            color: $white;
-            font-weight: 400;
-            line-height: $line-height;
-            margin-bottom: 1.5rem;
+          font-family: $title-font;
+          font-size: 5rem;
+          color: $white;
+          font-weight: 400;
+          line-height: $line-height;
+          margin-bottom: 1.5rem;
         }
 
         & h2 {
-            font-family: $basic-font;
-            font-size: 1.3rem;
-            color: $white;
-            font-weight: 400;
-            line-height: $line-height;
+          font-family: $basic-font;
+          font-size: 1.3rem;
+          color: $white;
+          font-weight: 400;
+          line-height: $line-height;
         }
 
         & span {
-            background: $light-blue;
-            margin-top: 1rem;
-            color: white;
-            font-family: $basic-font;
-            font-size: 1rem;
-            padding: 1rem 2rem 1rem 2rem;
-            width: max-content;
-            display: flex;
-            align-items: center;
-            transition: all 0.3s ease-in-out;
+          background: $light-blue;
+          margin-top: 1rem;
+          color: white;
+          font-family: $basic-font;
+          font-size: 1rem;
+          padding: 1rem 2rem 1rem 2rem;
+          width: max-content;
+          display: flex;
+          align-items: center;
+          transition: all 0.3s ease-in-out;
 
-            & i {
-                margin-left: 1rem;
-            }
+          & i {
+            margin-left: 1rem;
+          }
 
-            &:hover {
-                background: $dark-blue;
-                cursor: pointer;
-            }
+          &:hover {
+            background: $dark-blue;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -89,12 +89,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      background: rgba(
-        0,
-        0,
-        0,
-        0.7
-      );
+      background: rgba(0, 0, 0, 0.7);
       filter: brightness(0.7);
     }
   }

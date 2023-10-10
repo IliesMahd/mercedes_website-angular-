@@ -1,28 +1,35 @@
 <div class="container-home">
-    <div class="container-preview">
-        <div class="wrapper-logo">
-            <img src="../../../assets/logo/basic_logo.png" alt="">
-            <div class="wrapper-texts">
-            <h1>Mercedes-Benz</h1>
-            <h2>Élevez votre expérience de conduite à un niveau supérieur avec Mercedes-Benz : l'élégance, l'innovation et la performance à chaque virage.</h2>
-            <span>
-                <p>Découvrez nos nouveaux modèles</p>
-                <i class="fi fi-rs-arrow-up-right-from-square"></i>
-            </span>
-            </div>
+  <div class="container-preview">
+    <div class="wrapper-logo">
+      <img src="../../../assets/logo/basic_logo.png" alt="" />
+      <div class="wrapper-texts">
+        <h1>Mercedes-Benz</h1>
+        <h2>
+          Élevez votre expérience de conduite à un niveau supérieur avec
+          Mercedes-Benz : l'élégance, l'innovation et la performance à chaque
+          virage.
+        </h2>
+        <span>
+          <p>Découvrez nos nouveaux modèles</p>
+          <i class="fi fi-rs-arrow-up-right-from-square"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="container-new_models" id="newmodels">
+    <h1>Découvrez nos nouveaux modèles :</h1>
+    <ul>
+      <li *ngFor="let item of getNewModels()">
+        <img
+          src="../../../assets/vehicles/{{ item.veh_name }}.avif"
+          alt="{{ item.veh_name }}"
+        />
+        <div class="wrapper-informations">
+          <h1>Nouveau {{ item.veh_label }} €</h1>
+          <p>À partir de {{ item.price }}</p>
+          <span>Plus d'informations</span>
         </div>
-    </div>
-    <div class="container-new_models" id="newmodels">
-        <h1>Découvrez nos nouveaux modèles :</h1>
-        <ul>
-            <li *ngFor="let item of getNewModels()">
-                <img src="../../../assets/vehicles/{{item.veh_name}}.avif" alt="{{item.veh_name}}">
-                <div class="wrapper-informations">
-                    <h1>Nouveau {{item.veh_label}} €</h1>
-                    <p>À partir de {{item.price}}</p>
-                    <span>Plus d'informations</span>
-                </div>
-            </li>
-        </ul>
-    </div>
+      </li>
+    </ul>
+  </div>
 </div>

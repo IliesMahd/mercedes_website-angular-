@@ -1,18 +1,29 @@
 <div class="container-models">
-    <h1>Nos modèles</h1>
-    <div class="container-content">
-        <div class="container-brands">
-            <div class="wrapper-brands">
-                <div class="brand" *ngFor="let brand of getBrands()">
-                    <p *ngIf="brand.label">{{brand.label}}</p>
-                    <img *ngIf="brand.image" src="../../../assets/brands/{{brand.image}}.png" alt="">
-                </div>
-            </div>
+  <h1>Nos modèles</h1>
+  <div class="container-content">
+    <div class="container-brands">
+      <div class="wrapper-brands">
+        <div
+          class="brand"
+          *ngFor="let brand of getBrands()"
+          [class.active]="getCurrentBrand() === brand"
+        >
+          <p *ngIf="brand.label">
+            {{ brand.label }}<i *ngIf="brand.icon" class="{{ brand.icon }}"></i>
+          </p>
+          <!-- <img *ngIf="brand.logo" src="../../../assets/brands/{{ brand.logo }}" alt="" /> -->
+          <object
+            *ngIf="brand.logo"
+            `[data]`="`../../../assets/brands/${brand.logo}`"
+            type="image/svg+xml"
+          ></object>
         </div>
-        <div class="container-sort"></div>
-        <div class="container-models"></div>
+      </div>
     </div>
-    <!-- <div class="container-content">
+    <div class="container-sort"></div>
+    <div class="container-models"></div>
+  </div>
+  <!-- <div class="container-content">
         <div class="container-brands"></div>
         <div class="container-sort"></div>
         <div class="container-models"></div>
