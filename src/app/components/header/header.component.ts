@@ -16,7 +16,7 @@ export class HeaderComponent {
 
   constructor(private router: Router) {}
 
-  links: Link[] = [
+  public links: Link[] = [
     { path: 'home', label: 'Accueil' },
     { path: 'models', label: 'Nos modèles' },
     { path: 'brand', label: 'Notre marque' },

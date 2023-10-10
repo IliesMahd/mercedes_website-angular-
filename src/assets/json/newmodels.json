@@ -1,0 +1,22 @@
+[
+    {
+        "veh_name": "eqb",
+        "veh_label": "EQB",
+        "price": 43800
+    },
+    {
+        "veh_name": "eqa",
+        "veh_label": "EQA",
+        "price": 100000
+    },
+    {
+        "veh_name": "clacoupé",
+        "veh_label": "CLA Coupé",
+        "price": 75000
+    },
+    {
+        "veh_name": "gla",
+        "veh_label": "GLA",
+        "price": 85000
+    }
+]
