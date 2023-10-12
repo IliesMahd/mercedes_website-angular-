@@ -1,0 +1,9 @@
+.container-brand {
+    width: 100%;
+    // height: min-content;
+    height: 100vh;
+    background: pink;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 1fr)
+}
