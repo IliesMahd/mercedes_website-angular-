@@ -46,6 +46,10 @@
           width: min-content;
           border: 1px solid $light-gray;
           padding: 1rem 2rem 1rem 2rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
 
           & .active {
             background: $light-gray;
@@ -68,17 +72,7 @@
             }
           }
 
-          & object {
-            // background: orange;
-
-            svg {
-              background: purple;
-
-              path {
-                fill: blue;
-              }
-            }
-          }
+          
         
           // & svg {
           //   background: orange;

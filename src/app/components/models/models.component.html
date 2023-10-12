@@ -11,21 +11,15 @@
           <p *ngIf="brand.label">
             {{ brand.label }}<i *ngIf="brand.icon" class="{{ brand.icon }}"></i>
           </p>
-          <!-- <img *ngIf="brand.logo" src="../../../assets/brands/{{ brand.logo }}" alt="" /> -->
-          <object
+          <app-svg-icon
             *ngIf="brand.logo"
-            `[data]`="`../../../assets/brands/${brand.logo}`"
-            type="image/svg+xml"
-          ></object>
+            [svgPath]="brand.logo"
+            [svgClass]="brand.name"
+          ></app-svg-icon>
         </div>
       </div>
     </div>
     <div class="container-sort"></div>
     <div class="container-models"></div>
   </div>
-  <!-- <div class="container-content">
-        <div class="container-brands"></div>
-        <div class="container-sort"></div>
-        <div class="container-models"></div>
-    </div> -->
 </div>
