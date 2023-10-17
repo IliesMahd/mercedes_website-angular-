@@ -3,12 +3,13 @@ $basic-font: "Default", sans-serif;
 $line-height: 1.5rem;
 $font-weight: 400;
 $light-gray: #bbb;
-$dark-gray: #818080;
+$dark-gray: #262626;
+$gray: #818080;
 $black: #000;
 $white: #fff;
 $light-blue: #0078d6;
 $dark-blue: #005ea2;
-$shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$shadow: rgba(0,0,0,0.24) 0px 3px 8px;
 
 * {
   margin: 0;
@@ -20,8 +21,7 @@ $shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   text-decoration: none;
 }
 
-body,
-html {
+body, html {
   overflow-x: hidden;
 }
 
@@ -33,4 +33,8 @@ html {
 @font-face {
   font-family: "Title";
   src: url("/assets/fonts/MBCorpoATitleCond-Regular-Web.woff2");
+}
+
+#brand_svg {
+  width: 8rem;
 }

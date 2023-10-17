@@ -40,7 +40,8 @@
         grid-template-columns: repeat(4, min-content);
         grid-row: 100%;
         align-self: flex-end;
-        box-shadow: $shadow;
+        transition: all 0.2s;
+        // box-shadow: $shadow;
 
         & .brand {
           width: min-content;
@@ -52,7 +53,7 @@
 
 
           & .active {
-            background: $light-gray;
+            background: $black;
             border: 1px solid $light-gray;
           }
 
@@ -70,6 +71,11 @@
               color: $light-blue;
               margin-left: 0.5rem;
             }
+          }
+
+          &:hover {
+            cursor: pointer;
+            background: $light-gray;
           }
 
           
