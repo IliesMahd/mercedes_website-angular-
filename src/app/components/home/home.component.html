@@ -18,8 +18,8 @@
             <li *ngFor="let item of getNewModels()">
                 <img src="../../../assets/vehicles/{{item.veh_name}}.avif" alt="{{item.veh_name}}">
                 <div class="wrapper-informations">
-                    <h1>Nouveau {{item.veh_label}} €</h1>
-                    <p>À partir de {{item.price}}</p>
+                    <h1>Nouveau {{item.veh_label}}</h1>
+                    <p>À partir de {{item.price.toLocaleString()}} €</p>
                     <span>Plus d'informations</span>
                 </div>
             </li>

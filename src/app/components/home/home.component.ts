@@ -12,6 +12,7 @@ interface newModelsInt {
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
+
 export class HomeComponent {
   private models: newModelsInt[] = newModels;
 
