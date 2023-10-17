@@ -8,7 +8,7 @@ $black: #000;
 $white: #fff;
 $light-blue: #0078d6;
 $dark-blue: #005ea2;
-$shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+$shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 * {
   margin: 0;
@@ -20,7 +20,8 @@ $shadow: rgba(0,0,0,0.24) 0px 3px 8px;
   text-decoration: none;
 }
 
-body, html {
+body,
+html {
   overflow-x: hidden;
 }
 

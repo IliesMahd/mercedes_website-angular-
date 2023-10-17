@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ModelsComponent } from './components/models/models.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SvgIconComponent } from './components/svg-icon/svg-icon.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './components/contact/contact.component';
     HomeComponent,
     ModelsComponent,
     BrandComponent,
-    ContactComponent
+    ContactComponent,
+    SvgIconComponent
   ],
   imports: [
     BrowserModule,

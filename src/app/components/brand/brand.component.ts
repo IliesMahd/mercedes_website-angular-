@@ -7,6 +7,13 @@ interface brandContent {
   image: string;
 }
 
+interface BrandContent {
+  img: string;
+  title: string;
+  desc: string;
+  path: string;
+}
+
 @Component({
   selector: 'app-brand',
   templateUrl: './brand.component.html',
