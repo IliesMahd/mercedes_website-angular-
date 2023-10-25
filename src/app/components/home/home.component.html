@@ -16,7 +16,7 @@
         <h1>Découvrez nos nouveaux modèles :</h1>
         <ul>
             <li *ngFor="let item of getNewModels()">
-                <img src="../../../assets/vehicles/{{item.veh_name}}.avif" alt="{{item.veh_name}}">
+                <img src="../../../assets/vehicles/home/{{item.veh_name}}.avif" alt="{{item.veh_name}}">
                 <div class="wrapper-informations">
                     <h1>Nouveau {{item.veh_label}}</h1>
                     <p>À partir de {{item.price.toLocaleString()}} €</p>

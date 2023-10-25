@@ -10,6 +10,7 @@ import { ModelsComponent } from './components/models/models.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SvgIconComponent } from './components/svg-icon/svg-icon.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SvgIconComponent } from './components/svg-icon/svg-icon.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

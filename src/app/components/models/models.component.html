@@ -7,19 +7,59 @@
           class="brand"
           *ngFor="let brand of getBrands()"
           [class.active]="getCurrentBrand() === brand"
+          (click)="setCurrentBrand(brand)"
         >
-          <p *ngIf="brand.label">
+          <p *ngIf="brand.label && !brand.logo">
             {{ brand.label }}<i *ngIf="brand.icon" class="{{ brand.icon }}"></i>
           </p>
           <app-svg-icon
             *ngIf="brand.logo"
             [svgPath]="brand.logo"
-            [svgClass]="brand.name"
+            [svgClass]="brand.name + ' logo'"
           ></app-svg-icon>
         </div>
       </div>
     </div>
-    <div class="container-sort"></div>
-    <div class="container-models"></div>
+    <div class="container-nav">
+      <ul *ngFor="let category of getBrandNavCategories()">
+        <h2>{{ category.label }}</h2>
+        <li
+          *ngFor="let item of category.data"
+          [class.variant]="item.type == 'variant'"
+        >
+          <input
+            *ngIf="item.type == 'checkbox'"
+            type="checkbox"
+            name="{{ item.name }}"
+            [(ngModel)]="item.checked"
+          />
+          <app-svg-icon
+            *ngIf="item.type == 'variant'"
+            [svgPath]="item.icon ?? ''"
+            [svgClass]="item.name"
+          ></app-svg-icon>
+          <p>{{ item.label }}</p>
+        </li>
+      </ul>
+    </div>
+    <div class="container-previews">
+      <h1>{{ getCurrentBrand().label }} - {{getCurrentBrand().data.length}} résultats</h1>
+      <div class="wrapper-models">
+        <div class="model" *ngFor="let model of getCurrentBrand().data">
+          <div class="wrapper-image">
+            <img [src]="getModelsImage(model)" alt="" />
+          </div>
+          <div class="wrapper-details">
+            <h2>{{ model.label }}</h2>
+            <p>à partir de {{ model.price.toLocaleString() }}€</p>
+            <div class="wrapper-options">
+              <span class="energy">Électrique</span>
+              <span class="new" *ngIf="model.isNew">Nouveau</span>
+            </div>
+            <span class="more"><p>Plus d'informations</p></span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

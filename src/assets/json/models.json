@@ -1,0 +1,146 @@
+[
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseA",
+    "label": "Classe A",
+    "price": 70000,
+    "isNew": true,
+    "category": "Berlines"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseC",
+    "label": "Classe C",
+    "price": 80000,
+    "isNew": true,
+    "category": "Berlines"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseS-limousine",
+    "label": "Classe S Limousine",
+    "price": 90000,
+    "isNew": false,
+    "category": "Berlines"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "EQE",
+    "label": "EQE",
+    "price": 100000,
+    "isNew": false,
+    "category": "Berlines"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "EQS",
+    "label": "EQS",
+    "price": 110000,
+    "isNew": true,
+    "category": "Berlines"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "CLASB",
+    "label": "Classe B",
+    "price": 70000,
+    "isNew": false,
+    "category": "Breaks"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseC-break",
+    "label": "Classe C Break",
+    "price": 80000,
+    "isNew": true,
+    "category": "Breaks"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "AMGSL",
+    "label": "AMG SL",
+    "price": 70000,
+    "isNew": false,
+    "category": "Cabriolets"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseA-compact",
+    "label": "Classe A Compact",
+    "price": 70000,
+    "isNew": true,
+    "category": "Compactes"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "AMGGT",
+    "label": "AMG GT",
+    "price": 70000,
+    "isNew": false,
+    "category": "Coupes"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "CLA",
+    "label": "CLA",
+    "price": 80000,
+    "isNew": true,
+    "category": "Coupes"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "CLS",
+    "label": "CLS",
+    "price": 90000,
+    "isNew": false,
+    "category": "Coupes"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseG",
+    "label": "Classe G",
+    "price": 70000,
+    "isNew": true,
+    "category": "SUV"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "GLB",
+    "label": "GLB",
+    "price": 80000,
+    "isNew": true,
+    "category": "SUV"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "GLE",
+    "label": "GLE",
+    "price": 90000,
+    "isNew": false,
+    "category": "SUV"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "GLS",
+    "label": "GLS",
+    "price": 100000,
+    "isNew": true,
+    "category": "SUV"
+  },
+  {
+    "brand": ["maybach", "all"],
+    "name": "classeSMaybach",
+    "label": "Classe S Maybach",
+    "price": 70000,
+    "isNew": false,
+    "category": "Berlines"
+  },
+  {
+    "brand": ["maybach", "all"],
+    "name": "MaybachGLS",
+    "label": "Maybach GLS",
+    "price": 70000,
+    "isNew": true,
+    "category": "SUV"
+  }
+]

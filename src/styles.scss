@@ -3,7 +3,11 @@ $basic-font: "Default", sans-serif;
 $line-height: 1.5rem;
 $font-weight: 400;
 $light-gray: #bbb;
+$light-gray-1: #dad9d9;
+$light-gray-2: #eaeaea;
+$light-gray-3: #9f9f9f;
 $dark-gray: #262626;
+$dark-gray-1: #5c5c5c;
 $gray: #818080;
 $black: #000;
 $white: #fff;
@@ -37,4 +41,9 @@ body, html {
 
 #brand_svg {
   width: 8rem;
+}
+
+#variant {
+  width: 3rem;
+  fill: $dark-gray;
 }
