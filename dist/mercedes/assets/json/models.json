@@ -1,0 +1,164 @@
+[
+  {
+    "brand": ["amg", "all", "new"],
+    "name": "ClasseA",
+    "label": "Classe A",
+    "price": 70000,
+    "isNew": true,
+    "category": "Berlines",
+    "energy": "electric"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseC",
+    "label": "Classe C",
+    "price": 80000,
+    "isNew": true,
+    "category": "Berlines",
+    "energy": "hybrid"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseS-limousine",
+    "label": "Classe S Limousine",
+    "price": 90000,
+    "isNew": false,
+    "category": "Berlines",
+    "energy": "electric"
+  },
+  {
+    "brand": ["amg", "all", "new"],
+    "name": "EQE",
+    "label": "EQE",
+    "price": 100000,
+    "isNew": false,
+    "category": "Berlines",
+    "energy": "hybrid"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "EQS",
+    "label": "EQS",
+    "price": 110000,
+    "isNew": true,
+    "category": "Berlines",
+    "energy": "electric"
+  },
+  {
+    "brand": ["amg", "all", "new"],
+    "name": "CLASB",
+    "label": "Classe B",
+    "price": 70000,
+    "isNew": false,
+    "category": "Breaks",
+    "energy": "hybrid"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseC-break",
+    "label": "Classe C Break",
+    "price": 80000,
+    "isNew": true,
+    "category": "Breaks",
+    "energy": "electric"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "AMGSL",
+    "label": "AMG SL",
+    "price": 70000,
+    "isNew": false,
+    "category": "Cabriolets",
+    "energy": "hybrid"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseA-compact",
+    "label": "Classe A Compact",
+    "price": 70000,
+    "isNew": true,
+    "category": "Compactes",
+    "energy": "electric"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "AMGGT",
+    "label": "AMG GT",
+    "price": 70000,
+    "isNew": false,
+    "category": "Coupes",
+    "energy": "hybrid"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "CLA",
+    "label": "CLA",
+    "price": 80000,
+    "isNew": true,
+    "category": "Coupes",
+    "energy": "electric"
+  },
+  {
+    "brand": ["amg", "all", "new"],
+    "name": "CLS",
+    "label": "CLS",
+    "price": 90000,
+    "isNew": false,
+    "category": "Coupes",
+    "energy": "hybrid"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "ClasseG",
+    "label": "Classe G",
+    "price": 70000,
+    "isNew": true,
+    "category": "SUV",
+    "energy": "electric"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "GLB",
+    "label": "GLB",
+    "price": 80000,
+    "isNew": true,
+    "category": "SUV",
+    "energy": "hybrid"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "GLE",
+    "label": "GLE",
+    "price": 90000,
+    "isNew": false,
+    "category": "SUV",
+    "energy": "electric"
+  },
+  {
+    "brand": ["amg", "all"],
+    "name": "GLS",
+    "label": "GLS",
+    "price": 100000,
+    "isNew": true,
+    "category": "SUV",
+    "energy": "hybrid"
+  },
+  {
+    "brand": ["maybach", "all"],
+    "name": "classeSMaybach",
+    "label": "Classe S Maybach",
+    "price": 70000,
+    "isNew": false,
+    "category": "Berlines",
+    "energy": "electric"
+  },
+  {
+    "brand": ["maybach", "all", "new"],
+    "name": "MaybachGLS",
+    "label": "Maybach GLS",
+    "price": 70000,
+    "isNew": true,
+    "category": "SUV",
+    "energy": "hybrid"
+  }
+]
