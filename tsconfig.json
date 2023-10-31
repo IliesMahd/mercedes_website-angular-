@@ -24,7 +24,8 @@
       "dom"
     ],
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "types": ["aos"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

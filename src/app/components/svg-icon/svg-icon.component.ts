@@ -23,7 +23,6 @@ export class SvgIconComponent implements OnInit {
         svg.innerHTML = svgContent;
         this.renderer.appendChild(this.elementRef.nativeElement, svg);
         this.renderer.setAttribute(svg, 'class', this.svgClass);
-        console.log('Chargement du fichier SVG :', svgPath)
         
       })
       .catch((error) => {

@@ -1,1 +1,45 @@
-<p>contact works!</p>
+<div class="container-contact">
+  <div class="wrapper">
+    <div class="wrapper-title">
+      <h1>Contactez-nous</h1>
+    </div>
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+      <div class="wrapper-input normal">
+        <label for="name">Nom</label>
+        <input
+          id="name"
+          type="text"
+          formControlName="name"
+          maxlength="{{ nameMaxLength }}"
+        />
+        <p class="error-message">{{ errorMessages["name"] }}</p>
+      </div>
+      <div class="wrapper-input normal">
+        <label for="email">Adresse mail</label>
+        <input id="email" type="text" formControlName="email" />
+        <p class="error-message">{{ errorMessages["email"] }}</p>
+      </div>
+      <div class="wrapper-input message">
+        <label for="message"
+          >Message ({{ characterCount }} sur {{ areaMaxLength }} mots)</label
+        >
+        <textarea
+          id="message"
+          formControlName="message"
+          maxlength="{{ areaMaxLength }}"
+        ></textarea>
+        <p class="error-message">{{ errorMessages["message"] }}</p>
+      </div>
+      <p
+        class="success-message"
+        *ngIf="this.messageSend"
+      >Mail envoyé avec succès !</p>
+      <!-- <div class="wrapper-input">
+            <button type="submit" [disabled]="!contactForm.valid">Envoyer</button>
+        </div> -->
+      <div class="wrapper-btn">
+        <button type="submit">Envoyer</button>
+      </div>
+    </form>
+  </div>
+</div>

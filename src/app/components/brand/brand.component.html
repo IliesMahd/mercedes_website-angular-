@@ -1,11 +1,24 @@
 <div class="container-brand">
-    <div class="content" *ngFor="let content of getBrandContent()">
-        <div class="wrapper-texts">
-            <h1>{{content.title}}</h1>
-            <p>{{content.desc}}</p>
-        </div>
-        <div class="wrapper-image">
-            <img [src]="content.image">
-        </div>
+  <div
+    class="content"
+    *ngFor="let content of getBrandContent()"
+    [ngClass]="{
+      hidden: !content.isVisible
+    }"
+  >
+    <div class="wrapper-texts">
+      <h1>{{ content.title }}</h1>
+      <p>{{ content.desc }}</p>
+      <div class="wrapper-next" (click)="scrollToNextArticle()">
+        <i class="fi fi-rs-angle-circle-down"></i>
+        <p>Se rendre au prochain article</p>
+      </div>
     </div>
+    <div class="wrapper-image">
+      <img [src]="content.image" />
+    </div>
+  </div>
+  <div class="wrapper-footer">
+    <i class="fi fi-rs-angle-circle-up" (click)="scrollToTop()"></i>
+  </div>
 </div>

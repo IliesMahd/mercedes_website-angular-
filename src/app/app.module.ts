@@ -10,7 +10,7 @@ import { ModelsComponent } from './components/models/models.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SvgIconComponent } from './components/svg-icon/svg-icon.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
