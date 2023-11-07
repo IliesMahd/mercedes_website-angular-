@@ -31,7 +31,7 @@
     "name": "EQE",
     "label": "EQE",
     "price": 100000,
-    "isNew": false,
+    "isNew": true,
     "category": "Berlines",
     "energy": "hybrid"
   },
@@ -49,7 +49,7 @@
     "name": "CLASB",
     "label": "Classe B",
     "price": 70000,
-    "isNew": false,
+    "isNew": true,
     "category": "Breaks",
     "energy": "hybrid"
   },
@@ -103,7 +103,7 @@
     "name": "CLS",
     "label": "CLS",
     "price": 90000,
-    "isNew": false,
+    "isNew": true,
     "category": "Coupes",
     "energy": "hybrid"
   },
